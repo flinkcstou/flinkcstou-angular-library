@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "mockup-http": [
+        "dist/mockup-http"
+      ],
+      "mockup-http/*": [
+        "dist/mockup-http/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
